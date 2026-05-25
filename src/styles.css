@@ -1,0 +1,6 @@
+:root{--bg:#fffefc;--accent:#cbaea6}
+body{font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg); color:#222; margin:0}
+.app-header{display:flex;align-items:center;justify-content:space-between;padding:1rem;border-bottom:1px solid #eee}
+.app-header nav button{margin-left:0.5rem}
+main{padding:1rem}
+.photo-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:0.75rem}
